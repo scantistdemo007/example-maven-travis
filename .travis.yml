@@ -8,6 +8,5 @@ jdk:
 
 after_success:
 #   - bash <(curl -s https://scripts.scantist.com/staging/ci-travis.sh)
-#   - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
-#   - bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 41c71f81b00e4ec5868fece050113260fa23031c6fac460a81945a99bfaeea51 -c [path to config file] -project travis-ci_test -d . 
-  - bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 41c71f81b00e4ec5868fece050113260fa23031c6fac460a81945a99bfaeea51 -product hdx -project hdx-project -projectToken dde113bf14164258aa06cdbcf23777e20e4c8437d37247d1ae00da37becd2944 -d . 
+#   - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload) 
+  - bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 41c71f81b00e4ec5868fece050113260fa23031c6fac460a81945a99bfaeea51 -product hdx -project hdx-project -d . 
