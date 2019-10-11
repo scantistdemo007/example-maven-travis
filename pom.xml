@@ -10,11 +10,6 @@
   <description>Provide an example of configuring a Maven project to scan for vulnerabilities</description>
   <url>https://github.com/BlackDuckCoPilot/example-maven-travis</url>
   <inceptionYear>2017</inceptionYear>
-
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
 	
   <properties>
 		<struts.version>2.5.18</struts.version>
