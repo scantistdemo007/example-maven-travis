@@ -24,32 +24,32 @@
 	
   <dependencies>
         <dependency>
-            <groupId></groupId>
-            <artifactId>com.github.sarxos:exchange-rates-api</artifactId>
+            <groupId>com.github.sarxos</groupId>
+            <artifactId>exchange-rates-api</artifactId>
             <version>0.2</version>
             <scope></scope>
         </dependency>
         <dependency>
-            <groupId></groupId>
-            <artifactId>com.jdroidtools:jdroid-gradle-googleplay-publisher-plugin</artifactId>
+            <groupId>com.jdroidtools</groupId>
+            <artifactId>jdroid-gradle-googleplay-publisher-plugin</artifactId>
             <version>3.7.0</version>
             <scope></scope>
         </dependency>
         <dependency>
-            <groupId></groupId>
-            <artifactId>com.liferay:com.liferay.adaptive.media.journal.editor.configuration</artifactId>
+            <groupId>com.liferay</groupId>
+            <artifactId>com.liferay.adaptive.media.journal.editor.configuration</artifactId>
             <version>3.0.10</version>
             <scope></scope>
         </dependency>
         <dependency>
-            <groupId></groupId>
-            <artifactId>com.propensive:rapture-js_2.12</artifactId>
+            <groupId>com.propensive</groupId>
+            <artifactId>rapture-js_2.12</artifactId>
             <version>2.0.0-M9</version>
             <scope></scope>
         </dependency>
         <dependency>
-            <groupId></groupId>
-            <artifactId>com.typesafe:mima-core_2.9.2</artifactId>
+            <groupId>com.typesafe</groupId>
+            <artifactId>mima-core_2.9.2</artifactId>
             <version>0.1.5</version>
             <scope></scope>
         </dependency>
