@@ -25,7 +25,7 @@ pipeline {
                 sh '''
                     #!/bin/bash
                     export SCANTIST_IMPORT_URL=https://api.scantist.io/ci-scan/
-                    export SCANTISTTOKEN=b5967f02-3aca-4a28-a6c7-d656deaa4f6b
+                    export SCANTISTTOKEN=8dc0ef6d-8c4e-4b22-b6fe-298c4722b440
 
                     bash <(curl -s https://scripts.scantist.com/ci-jenkins.sh)
                 '''
