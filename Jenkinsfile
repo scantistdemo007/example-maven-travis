@@ -19,5 +19,17 @@ pipeline {
                 sh 'mvn install'
             }
         }
+        
+        stage ('Scantist') {
+            steps {
+                sh '''
+                    #!/bin/bash
+                    export SCANTIST_IMPORT_URL=https://api.scantist.io/ci-scan/
+                    export SCANTISTTOKEN=$your_copied_access_token
+
+                    bash <(curl -s https://scripts.scantist.com/ci-jenkins.sh)
+                '''
+            }
+        }
     }
 }
