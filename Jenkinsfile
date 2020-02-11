@@ -23,11 +23,12 @@ pipeline {
         stage ('Scantist') {
             steps {
                 sh '''
-                    #!/bin/bash
                     export SCANTIST_IMPORT_URL=https://api.scantist.io/ci-scan/
                     export SCANTISTTOKEN=8dc0ef6d-8c4e-4b22-b6fe-298c4722b440
 
-                    bash <(curl -s https://scripts.scantist.com/ci-jenkins.sh)
+                    curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
+
+                    java -jar scantist-bom-detect.jar
                 '''
             }
         }
